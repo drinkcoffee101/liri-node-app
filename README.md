@@ -1,62 +1,49 @@
 # liri-node-app
 
 
-/*=============================================
-=            Objective/Organization            =
-=============================================*/
-Objective:
+## Objective:
 
-Build a small Speech Interpretation and Recognition Interface as a command line application. 
+#### Build a small Speech Interpretation and Recognition Interface as a command line application. 
 
-Organization:
+## Organization:
 
-1) Obtain function and search parameters 
-2) Perform a search for information on a song, artist concert, or movie
+1. Obtain function and search parameters 
+2. Perform a search for information on a song, artist concert, or movie
 
 
-/*=====  End of Objective/Organization  ======*/
+## Instructions   
 
-
-/*=============================================
-=            Instructions            =
-=============================================*/
-Available commands: 
+### Available commands: 
 
 userArg = artist/movie/song to search for
 
-1) node liri.js do-what-it-says
+1. node liri.js do-what-it-says
     -Perfoms one of the commands and uses search item provided in the random.txt file
-2) node liri.js concert-this userArg
+2. node liri.js concert-this userArg
     -Returns upcoming concert info
-3) node liri.js spotify-this-song userArg
+3. node liri.js spotify-this-song userArg
     -Returns song composer, link, and album
-4) node liri.js movie-this userArg
+4. node liri.js movie-this userArg
     -Returns movie info
 
 
-/*=====  End of Instructions  ======*/
 
 
-/*=============================================
-=            Links            =
-=============================================*/
-For an example of the running app open the 'app-demo' picture 
+## Links            
+
+For an example of the running app open the 'app-demo' picture:
+
+![](/app-demo.png)
 
 Github repo: https://github.com/drinkcoffee101/liri-node-app 
 
 
-/*=====  End of Links  ======*/
 
+## Technologies Used            
+### Node Packages
+* Axios
+* Chalk
+* Dotenv
+* Moment
+* Node-spotify-api
 
-/*=============================================
-=            Technologies Used            =
-=============================================*/
-Node Packages
--Axios
--Chalk
--Dotenv
--Moment
--Node-spotify-api
-
-
-/*=====  End of Technologies Used  ======*/
